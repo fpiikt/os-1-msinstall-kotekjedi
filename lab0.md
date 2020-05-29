@@ -1,7 +1,7 @@
 # Отчет по Лабораторной работе №0 «Создание скрипта для автоматизации установки под Windows»
-## Выполнил студент: Байцеров Д.С. Группа P3321
+## Выполнил студент: Панфилов А.Н. Группа P3321
 ### 7-zip
-`msiexec /i 7z.msi /le "7zip-log.txt" /passive /norestart TARGETDIR="C:\Program Files\7-Zip""`
+`msiexec /i 7z.msi /le "7zip-log.txt" /passive /norestart TARGETDIR="C:\Program Files\7-Zip"`
 
 ### Paint.NET
 `msiexec paint.net.exe /auto TARGETDIR="C:\Program Files\Graphics\Paint" DESKTOPSHORTCUT=1`
